@@ -1,0 +1,50 @@
+---
+title: "R Notebook"
+output:
+html_document:
+df_print: paged
+---
+```{r setup, include=FALSE}
+#Do not change this Chunk
+knitr::opts_chunk$set(echo = FALSE, error = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(DBI)
+#enable other connections
+# dbDisconnect(con)
+#
+# connect to CapeCodd
+congap <- DBI::dbConnect(RSQLite::SQLite(), "gapminderdb.db")
+conbook <- DBI::dbConnect(RSQLite::SQLite(), "books.db")
+#
+```
+## Before you start
+knitr::opts_chunk$set(echo = FALSE, error = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(DBI)
+#enable other connections
+# dbDisconnect(con)
+#
+# connect to CapeCodd
+congap <- DBI::dbConnect(RSQLite::SQLite(), "gapminderdb.db")
+conbook <- DBI::dbConnect(RSQLite::SQLite(), "books.db")
+#
+getwd()
+library(tidyverse)
+library(ggplot2)
+library(DBI)
+18. What is the population per continent?
+select * from gapminder;
+ggplot(DF26, aes(x=gdpPercap, y=lifeExp)) + geom_point();
+ggplot(DF26, aes(x=gdpPercap, y=lifeExp)) + geom_point();
+ggplot(DF26, aes(x=year, y=pop)) + geom_point();
+ggplot(DF26, aes(x=g.year, y=g.pop)) + geom_point();
+ggplot(DF26, aes(x=g.year, y=g.pop)) + geom_point();
+ggplot(DF26, aes(x=year, y=pop)) + geom_point();
+ggplot(DF27, aes(x=year, y=pop)) + geom_point();
+ggplot(DF27, aes(x=year, y=pop, color=country)) + geom_point();
+ggplot(DF28, aes(x=year, y=pop, color=country)) + geom_point();
+ggplot(DF28, aes(x=lifeExp, y=gdpPercap, color=country)) + geom_point();
+ggplot(DF28, aes(x=lifeExp, y=gdpPercap, color=country, size=pop)) + geom_point();
+ggplot(DF28, aes(x=lifeExp, y=gdpPercap, color=country, size=pop)) + geom_point();
