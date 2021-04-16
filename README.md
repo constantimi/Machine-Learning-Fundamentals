@@ -1,4 +1,5 @@
-## Machine Learning
+## Artificial Intelligence & Machine learning
+
 What its machine learning ?
 
 “The field of study that gives computers the ability to learn without being explicitly programmed” - Arthur Samuel
@@ -19,4 +20,4 @@ What its machine learning ?
 
 ### Books: 
 
-[Python Machine Learning (3rd Ed.)](https://github.com/rasbt/python-machine-learning-book-3rd-edition) by Raschka, Sebastian and Mirjalili, Vahid
+[Python Machine Learning (3rd Ed.)](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
