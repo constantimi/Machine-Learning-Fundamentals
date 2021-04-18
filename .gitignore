@@ -76,6 +76,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+Face_Recognition/.ipynb_checkpoints
+Heart_Disease_UCI/.ipynb_checkpoints
 
 # IPython
 profile_default/
