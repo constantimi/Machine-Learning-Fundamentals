@@ -2,10 +2,10 @@
 
 ### Modeling 
 
- - **Supervised** *( You have data and labels, the model tries to learn the relationship between the 	data and labels. )*
- - **Unsupervised** *(You have data but no labels)*
- - **Reinforcement** *( An agent **algorithm** performs actions in an enviroment and is rewarded or penalized based on the whether the actions were favourable or not.)*
- - **Transfer training** *( Take knowledge from one model and use it in your own)*
+ - Supervised *( You have data and labels, the model tries to learn the relationship between the 	data and labels. )*
+ - Unsupervised *(You have data but no labels)*
+ - Reinforcement *( An agent **algorithm** performs actions in an enviroment and is rewarded or penalized based on the whether the actions were favourable or not.)*
+ - Transfer training *( Take knowledge from one model and use it in your own)*
 
 ### Evaluation
  - Confusion matrix
