@@ -1,0 +1,4 @@
+outs:
+- md5: 931da6066d8a076fa046b052aaf1dcee
+  size: 6944
+  path: pickle_model_arima.pkl
