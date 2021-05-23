@@ -1,0 +1,6 @@
+pandas
+sklearn
+scikit-learn
+scipy
+numpy
+ppscore
