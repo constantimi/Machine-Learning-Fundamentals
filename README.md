@@ -1,12 +1,5 @@
 # Machine Learning Fundamentals
 
-<p>
-  <p align="left">
-    <a href="https://classifai.ai">
-        <img alt="Documentation" src="https://img.shields.io/website/http/certifai.ai.svg?color=orange">
-    </a>
-</p>
-
 This repository contains Jupyter notebooks used for training during the hands-on session.
 ## Contents
 
