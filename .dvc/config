@@ -1,8 +1,0 @@
-[core]
-    remote = dvc-remote
-['remote "storage"']
-    url = s3://mybucket/dvcstore
-['remote "myremote"']
-    url = ..
-['remote "dvc-remote"']
-    url = ../../dvc-storage
